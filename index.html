@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oasis Globe Demo</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--text:#111827;--muted:#6b7280;--border:#e5e7eb;--accent:#2563eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0b0f17;--card:#121826;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--accent:#60a5fa}}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+header{max-width:1000px;margin:0 auto;padding:48px 16px 8px}h1{margin:0 0 8px;font-size:28px}p{color:var(--muted);margin:0}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 48px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+a.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;text-decoration:none;color:inherit;transition:border-color .15s}
+a.card:hover{border-color:var(--accent)}a.card h2{margin:0 0 6px;font-size:17px}a.card span{color:var(--accent);font-size:14px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding-bottom:32px}
+</style></head><body>
+<header><h1>Oasis Globe demo</h1><p>Every screen here uses sample data. No real customers.</p></header>
+<main>
+<a class="card" href="owner.html"><h2>Owner dashboard</h2><p>Jobs, bills, technicians, inventory and daily reports.</p><br><span>Open →</span></a>
+<a class="card" href="sales-dashboard.html"><h2>Sales dashboard</h2><p>Leads, follow-ups, salespeople and the catalogue.</p><br><span>Open →</span></a>
+<a class="card" href="technician-app.html"><h2>Technician app</h2><p>The phone app technicians use for jobs and weekly pay.</p><br><span>Open →</span></a>
+<a class="card" href="sales-app.html"><h2>Sales app</h2><p>The phone app salespeople use in the field.</p><br><span>Open →</span></a>
+</main>
+<footer>Oasis Globe, Pune</footer>
+</body></html>
